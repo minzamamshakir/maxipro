@@ -144,7 +144,7 @@ export const Kyc: React.FC = () => {
       <Page style={{ maxWidth: '800px' }}>
         <Flex flexDirection="column" gap="0.75em">
           <Text>
-            The IceCream KYC-Soulbound Token allows you to publicly prove you being KYCed with IceCreamSwap. For
+            The MAXL KYC-Soulbound Token allows you to publicly prove you being KYCed with MAXL Swap. For
             Projects that means you can get access to extra functionality and greatly increase your communities and
             other projects trust. For Users this means you might receive AirDrops where the KYC token is a prerequisite
             so projects are sure they don&apos;t AirDrop to bots.

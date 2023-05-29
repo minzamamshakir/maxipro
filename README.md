@@ -1,4 +1,4 @@
-# 🍦 IceCreamSwap Frontend
+# 🍦 MAXISwap Frontend
 
 <p align="center">
   <a href="https://ainzics.com">

@@ -1,5 +1,5 @@
 import { ERC20Token } from './entities/token'
-import { ChainId, chains } from '@icecreamswap/constants'
+import { ChainId, chains } from '@maxiproswap/constants'
 
 export { ChainId }
 

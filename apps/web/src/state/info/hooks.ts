@@ -1,4 +1,4 @@
-import { ChainId, getChain as getChainById } from '@icecreamswap/constants'
+import { ChainId, getChain as getChainById } from '@maxiproswap/constants'
 import { Duration, getUnixTime, startOfHour, sub } from 'date-fns'
 import { useRouter } from 'next/router'
 import { useCallback, useEffect, useMemo, useState } from 'react'

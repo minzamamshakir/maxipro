@@ -23,7 +23,7 @@ export const swapSectionData = (t: TranslateFunction): any => ({
   headingText: t('HUGE CORE APY!'),
   bodyText: (
     <>
-      IceCreamSwap will provide <i>huge farm rewards</i> for CORE/USDT and ICE/USDT liqudity provider
+      MAXL Swap will provide <i>huge farm rewards</i> for CORE/USDT and ICE/USDT liqudity provider
     </>
   ),
   reverse: false,

@@ -1,5 +1,5 @@
 import { SUPPORT_FARMS } from '@pancakeswap/farms'
-import { chains, ChainId } from '@icecreamswap/constants'
+import { chains, ChainId } from '@maxiproswap/constants'
 
 export { SUPPORT_FARMS }
 

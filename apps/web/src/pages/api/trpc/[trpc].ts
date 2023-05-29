@@ -1,3 +1,3 @@
-import { nextApiHandler } from '@icecreamswap/backend/dist/server/nextApiHandler'
+import { nextApiHandler } from '@maxiproswap/backend/dist/server/nextApiHandler'
 
 export default nextApiHandler

@@ -1,5 +1,5 @@
 /* eslint-disable no-await-in-loop */
-import { trpcClient } from '@icecreamswap/backend'
+import { trpcClient } from '@maxiproswap/backend'
 import tokenList from '../../../public/default.tokenlist.json'
 
 export default async function handler(req, res) {

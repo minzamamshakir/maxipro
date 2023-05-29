@@ -8,7 +8,7 @@ import { ChainId, Currency } from '@pancakeswap/sdk'
 import memoize from 'lodash/memoize'
 import { TokenAddressMap } from '@pancakeswap/token-lists'
 import { chains } from './wagmi'
-import { chainMap } from '@icecreamswap/constants'
+import { chainMap } from '@maxiproswap/constants'
 
 const { bsc } = chainMap
 

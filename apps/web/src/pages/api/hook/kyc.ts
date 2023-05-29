@@ -1,6 +1,6 @@
 import { JsonRpcProvider } from '@ethersproject/providers'
-import { chainMap } from '@icecreamswap/constants'
-import { PrismaClient } from '@icecreamswap/database'
+import { chainMap } from '@maxiproswap/constants'
+import { PrismaClient } from '@maxiproswap/database'
 import { Contract, utils, Wallet } from 'ethers'
 import kycAbi from '../../../config/abi/kyc.json'
 

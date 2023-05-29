@@ -1,5 +1,5 @@
 import { IronSessionOptions } from 'iron-session'
-import { User, Role } from '@icecreamswap/database'
+import { User, Role } from '@maxiproswap/database'
 
 export interface Session {
   user?: Pick<User, 'wallet' | 'name' | 'role'>

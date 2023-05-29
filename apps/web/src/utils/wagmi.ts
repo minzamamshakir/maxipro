@@ -7,7 +7,7 @@ import { MetaMaskConnector } from 'wagmi/connectors/metaMask'
 import { WalletConnectConnector } from 'wagmi/connectors/walletConnect'
 import { jsonRpcProvider } from 'wagmi/providers/jsonRpc'
 import { SafeConnector } from '@gnosis.pm/safe-apps-wagmi'
-import { chains as CHAINS } from '@icecreamswap/constants'
+import { chains as CHAINS } from '@maxiproswap/constants'
 
 const getNodeRealUrl = (networkName: string) => {
   let host = null

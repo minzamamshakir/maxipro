@@ -3,7 +3,7 @@ import { isMod } from '../session'
 import { publicProcedure, router } from '../trpc'
 import { S3Client, PutObjectCommand } from '@aws-sdk/client-s3'
 import { prisma } from '../prisma'
-import { Listed } from '@icecreamswap/database'
+import { Listed } from '@maxiproswap/database'
 
 export const tokenRouter = router({
   add: publicProcedure
@@ -57,7 +57,7 @@ export const tokenRouter = router({
       },
     })
     return {
-      name: 'IceCreamSwap Default',
+      name: 'MaxiSwap Default',
       timestamp: new Date().toISOString(),
       version: {
         major: 1,
@@ -65,8 +65,8 @@ export const tokenRouter = router({
         patch: 0,
       },
       tags: {},
-      logoURI: 'https://icecreamswap.com/logo.png',
-      keywords: ['icecreamswap', 'default'],
+      logoURI: 'https://ainzics.com/favicon.ico',
+      keywords: ['maxlswap', 'default'],
       tokens: tokens.map((token) => ({
         name: token.name,
         symbol: token.symbol,

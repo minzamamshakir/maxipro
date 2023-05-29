@@ -35,20 +35,20 @@ export const swapSectionData = (t: TranslateFunction): SalesSectionProps => ({
 export const bridgeSectionData = (t: TranslateFunction): SalesSectionProps => ({
   headingText: t('Bridge securely between many chains'),
   bodyText: t(
-    'IceCreamSwap allows direct bridging between many chains. ' +
-      'A novel approach of a second (redundant) security layer will make the IceCream Bridge even more secure ' +
+    'MAXL Swap allows direct bridging between many chains. ' +
+      'A novel approach of a second (redundant) security layer will make the MAXL Bridge even more secure ' +
       'than the audited and battle tested code it is built on top of. ' +
       'All bridge reserves are transparent on chain and can be verified any time. ' +
       'Due to its universal implementation even universal message parsing and NFTs will be supported by the Bridge.',
   ),
   reverse: true,
   primaryButton: {
-    to: 'https://bridge.icecreamswap.com',
+    to: 'https://bridge.ainzics.com',
     text: 'Bridge Now',
     external: false,
   },
   secondaryButton: {
-    to: 'https://wiki.icecreamswap.com/get-started/bridge',
+    to: 'https://wiki.AINZICS.com/get-started/bridge',
     text: t('Learn'),
     external: true,
   },

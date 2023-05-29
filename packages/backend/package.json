@@ -1,7 +1,7 @@
 {
-  "name": "@icecreamswap/backend",
+  "name": "@maxiproswap/backend",
   "version": "1.2.0",
-  "description": "IceCreamSwap backend",
+  "description": "MAXLSwap backend",
   "license": "MIT",
   "module": "dist/index.mjs",
   "main": "dist/index.js",
@@ -14,8 +14,8 @@
   },
   "dependencies": {
     "@aws-sdk/client-s3": "^3.317.0",
-    "@icecreamswap/constants": "*",
-    "@icecreamswap/database": "*",
+    "@maxiproswap/constants": "*",
+    "@maxiproswap/database": "*",
     "@tanstack/react-query": "^4.28.0",
     "@trpc/client": "^10.18.0",
     "@trpc/next": "^10.18.0",

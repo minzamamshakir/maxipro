@@ -1,5 +1,5 @@
 import { getFullDecimalMultiplier } from '@pancakeswap/utils/getFullDecimalMultiplier'
-import { getChain } from "@icecreamswap/constants"
+import { getChain } from '@maxiproswap/constants'
 
 export const BITGERT_BLOCK_TIME = 15
 
@@ -11,5 +11,5 @@ export const IPFS_GATEWAY = 'https://ipfs.io/ipfs'
 export const SECONDS_PER_YEAR = 365 * 24 * 60 * 60
 
 export const blocksPerYear = (chainId: number) => {
-    return SECONDS_PER_YEAR / getChain(chainId).blockInterval
+  return SECONDS_PER_YEAR / getChain(chainId).blockInterval
 }

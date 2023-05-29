@@ -1,4 +1,4 @@
-import { chains } from '@icecreamswap/constants'
+import { chains } from '@maxiproswap/constants'
 import { useWeb3React } from '@pancakeswap/wagmi'
 import { useActiveChainId } from './useActiveChainId'
 

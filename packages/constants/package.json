@@ -1,7 +1,7 @@
 {
-  "name": "@icecreamswap/constants",
+  "name": "@maxiproswap/constants",
   "version": "1.2.0",
-  "description": "IceCreamSwap constants",
+  "description": "MAXL Swap constants",
   "main": "./src/index.ts",
   "types": "./src/index.ts",
   "license": "MIT",

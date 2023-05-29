@@ -9,7 +9,7 @@ import { useEffect, useMemo, useState } from 'react'
 import { useToken } from '../../../hooks/Tokens'
 import styled from 'styled-components'
 import { convertImage } from './convert-image'
-import { trpc } from '@icecreamswap/backend'
+import { trpc } from '@maxiproswap/backend'
 import { useActiveChainId } from '../../../hooks/useActiveChainId'
 
 const Logo = styled.img`

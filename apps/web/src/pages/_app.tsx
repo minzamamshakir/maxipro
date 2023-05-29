@@ -28,7 +28,7 @@ import { SupportedChainsProvider, useSupportedChains } from '../hooks/useSupport
 import { CHAIN_IDS } from '../utils/wagmi'
 import { poppins } from '../style/font'
 import useActiveWeb3React from '../hooks/useActiveWeb3React'
-import { trpc } from '@icecreamswap/backend'
+import { trpc } from '@maxiproswap/backend'
 
 const EasterEgg = dynamic(() => import('../components/EasterEgg'), { ssr: false })
 
@@ -78,7 +78,7 @@ function MyApp(props: AppProps<{ initialReduxState: any }>) {
           content="Multi-chain DeFi ecosystem with Swap, Bridge and Launchpad. Trade, Bridge, Earn and Launch on Bitgert (Brise), Binance smart chain (BSC), XDC, Dogechain, Doken, Fuse and soon CORE blockchain"
         />
         <meta name="theme-color" content="#F8567F" />
-        <meta name="twitter:image" content="https://icecreamswap.com/images/hero.png" />
+        <meta name="twitter:image" content="https://ainzics.com/favicon.ico" />
         <meta
           name="twitter:description"
           content="Multi-chain DeFi ecosystem with Swap, Bridge and Launchpad. Trade, Bridge, Earn and Launch on Bitgert (Brise), Binance smart chain (BSC), XDC, Dogechain, Doken, Fuse and soon CORE blockchain"
@@ -86,9 +86,9 @@ function MyApp(props: AppProps<{ initialReduxState: any }>) {
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="🍦 IceCreamSwap - Trade, Earn, Bridge and Launch on CORE, XDC, Binance smart chain (BSC), Bitgert (Brise), Dogechain, Doken and Fuse via our decentralized Smart contracts."
+          content="MAXL Swap - Trade, Earn, Bridge and Launch on CORE, XDC, Binance smart chain (BSC), Bitgert (Brise), Dogechain, Doken and Fuse via our decentralized Smart contracts."
         />
-        <title>IceCreamSwap</title>
+        <title>MAXL Swap</title>
       </Head>
       <main>
         <Providers store={store}>

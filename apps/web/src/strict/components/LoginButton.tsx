@@ -1,4 +1,4 @@
-import { trpc, trpcClient } from '@icecreamswap/backend'
+import { trpc, trpcClient } from '@maxiproswap/backend'
 import { useTranslation } from '@pancakeswap/localization'
 import { LogoutIcon, UserMenuItem } from '@pancakeswap/uikit'
 import { useAccount, useSigner } from 'wagmi'
