@@ -8,9 +8,11 @@ function getBaseUrl() {
     // browser should use relative path
     return ''
 
-  if (process.env.VERCEL_URL)
+    const ENV = process.env.VERCEL_URL || "https://ainzics.com"
+
+  if (ENV)
     // reference for vercel.com
-    return `https://${process.env.VERCEL_URL}`
+    return `https://${ENV}`
 
   // assume localhost
   return `http://localhost:${process.env.PORT ?? 3000}`
